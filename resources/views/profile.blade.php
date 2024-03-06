@@ -4,13 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>Document</title>
 </head>
 
 <body>
-  <h1>Hello World</h1>
-  <p>I'm {{$name}} {{$surname}} and i'm {{$age}} years old.</p>
-  <a href="{{ route('profile')}}">Go to my profile!</a>
+  <h1>This is my profile</h1>
+  <a href="{{ route('home')}}">Return to HOME</a>
 </body>
 
 </html>
